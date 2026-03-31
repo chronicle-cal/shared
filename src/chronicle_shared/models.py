@@ -57,6 +57,7 @@ class TaskEvent(BaseModel):
     title: str
     start: datetime
     end: datetime
+    description: str | None = None
 
 
 class SchedulerConfig(BaseModel):
